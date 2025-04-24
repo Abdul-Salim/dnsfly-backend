@@ -1,0 +1,22 @@
+{
+  "name": "dnsfly-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Abdul Salim",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dns2": "^2.1.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
